@@ -43,14 +43,12 @@ public class Nombre1
 		
 		// Muestra mensaje personalizado con monbres y edades intoducidos
 		System.out.println("\nBienvenidos a Java.\n");
+		
 		System.out.println("Usuario 1\n");
 		System.out.println("Nombre:" + nombre1);
 		System.out.println("Edad:" + edad1);
 		
-		System.out.print("\n");
-		
-		
-		System.out.println("Usuario 2\n");
+		System.out.println("\nUsuario 2\n");
 		System.out.println("Nombre:" + nombre2);
 		System.out.print("Edad:" + edad2);
 		

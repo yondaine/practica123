@@ -25,7 +25,7 @@ public class MayorDeTres
 		
 		
 		// Mostramos un mensaje de bienvenida al programa
-		System.out.print("Bienvenido al comparador de digitos enteros\n");
+		System.out.print("Bienvenido al comparador de 3 digitos\n");
 		System.out.print("A continuacion introduce los digitos a comparar:\n");
 		
 		// Pedimos los tres digitos como "String" y configuramos que ese mismo
@@ -44,11 +44,13 @@ public class MayorDeTres
 		num3 = new Integer(num);
 		
         // Comparamos los digitos proporcionados a traves de una secuencia
-		// matematica y expresa un mensaje identificando el mayor de los tres
+		// matematica
 		
 		int resultado=Math.max(num1, num2);
 		resultado=Math.max(resultado, num3);
 
+		// Expresa un mensaje identificando el mayor de los tres
+		
 		System.out.print("\nEl numero, "+ resultado +" es el mayor de los tres");
 		
 	}
