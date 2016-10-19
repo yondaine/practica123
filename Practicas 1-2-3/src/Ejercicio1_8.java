@@ -1,10 +1,10 @@
 /** 1.2.2. (P) Ejercicios: Introducción a Java
  *  Alejandro Navarro Romero 1ºDAW
  *  Ejercicio 8
- *  Ejercicio8.java
+ *  Ejercicio1_8.java
  *  Imprime en pantalla la silueta de un gato.
  */
-public class Ejercicio8 {
+public class Ejercicio1_8 {
 
 	// Declaramos la clase principal
 	

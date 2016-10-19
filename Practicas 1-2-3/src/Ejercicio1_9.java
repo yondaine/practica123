@@ -1,10 +1,10 @@
 /** 1.2.2. (P) Ejercicios: Introducción a Java
  *  Alejandro Navarro Romero 1ºDAW
  *  Ejercicio 9
- *  Ejercicio9.java
+ *  Ejercicio1_9.java
  *  Imprime en pantalla mis iniciales.
  */
-public class Ejercicio9 {
+public class Ejercicio1_9 {
 	
 	// Declaramos la clase principal
 	

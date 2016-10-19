@@ -1,11 +1,11 @@
 /** 1.2.2. (P) Ejercicios: Introducción a Java
  *  Alejandro Navarro Romero 1ºDAW
  *  Ejercicio 6
- *  Ejercicio6.java
+ *  Ejercicio1_6.java
  *  Programa simple que declara tres variables de tipo entero, asigna valor
  *  diferente a cada una y las muestra en pantalla.
  */
-public class Ejercicio6 {
+public class Ejercicio1_6 {
 	
 	// Declaramos la clase principal
 	

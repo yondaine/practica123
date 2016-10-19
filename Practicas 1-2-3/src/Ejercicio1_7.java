@@ -1,12 +1,12 @@
 /** 1.2.2. (P) Ejercicios: Introducción a Java
  *  Alejandro Navarro Romero 1ºDAW
  *  Ejercicio 7
- *  Ejercicio7.java
+ *  Ejercicio1_7.java
  *  Imprime en pantalla en tres líneas separadas mi nombre completo, 
  *  calle, ciudad, país y código posta.
  */
 
-public class Ejercicio7 {
+public class Ejercicio1_7 {
 	
 	// Declaramos la clase principal
 	
