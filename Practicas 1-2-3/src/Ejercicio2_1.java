@@ -12,7 +12,7 @@ public class Ejercicio2_1 {
 	
 	public static void main(String argumentos[]) {
 	
-		// Configuramos las variables de tipo entero y abilitamos la entrada por
+		// Configuramos las variables de tipo entero y habilitamos la entrada por
         // teclado
 		
 		int num1;
