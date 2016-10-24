@@ -18,8 +18,8 @@ public class Nombre1
 		String nombre1 = "";		// variable de texto 
 		String nombre2 = "";        // variable de texto 
 		
-		String edad1 ;                 // variable numerica 
-		String edad2 ;                 // variable numerica
+		int edad1 ;                 // variable numerica 
+		int edad2 ;                 // variable numerica
 		
 		// Configura y muestra mensaje de bienvenida
 
@@ -36,10 +36,10 @@ public class Nombre1
 		
 		// Pide ambas edades
 		System.out.print("\nDíme la edad del Usuario 1: ");
-		edad1 = teclado.nextLine();
+		edad1 = teclado.nextInt();
 		
 		System.out.print("\nDíme la edad del Usuario 2: ");	
-		edad2 = teclado.nextLine();
+		edad2 = teclado.nextInt();
 		
 		// Muestra mensaje personalizado con monbres y edades intoducidos
 		System.out.println("\nBienvenidos a Java.\n");

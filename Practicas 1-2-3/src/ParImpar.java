@@ -37,8 +37,7 @@ public class ParImpar
 		
 		
         // Configuramos la variable "resto" para que su valor sea la division de
-		// "num1"(digito proporcionado por el usuario) estre "num2" al que le 
-		// aplicamos el valor "2" antes
+		// "num1"(digito proporcionado por el usuario) entre 2
 		
 		resto = num1%2;
 		

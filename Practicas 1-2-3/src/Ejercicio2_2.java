@@ -2,33 +2,50 @@
  *  Alejandro Navarro Romero 1ºDAW
  *  Ejercicio 2
  *  Ejercicio2_2.java
- *  Pide un nombre de usuario y lo almacena, tambien lo muestra en pantalla.
+ *  Programa que a partir del capital inicial, interes y numero de años
+ *  proporcionados por el usuario calcula el capital final.
  */
+
 import java.util.Scanner;
 
 public class Ejercicio2_2 {
-
-        // Declaramos la clase principal
+    
+	// Declaramos la clase principal
 	
-	public static void main(String argumentos[]) {
-		
-		// Configuramos las variables de tipo "String" y habilitamos la entrada por
-        // teclado
+	static public void main(String argumentos[]){
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		String nombre;
-
-		// Pedimos al ususario que introduzca su nombre de usuario
-		// Y lo almacenamos en un atibuto de tipo "String" creado anteriormente
+		// Declaramos tambien las variables que necesitaremos de tipo "double" y
+		// "int"
 		
-		System.out.print("Introduce tu nombre de usuario: ");
-		nombre = teclado.nextLine();
+		double cfinal,cinicial,interes;
+		int naños;
 		
-		// Por ultimo imprimimos en pantalla el nombre proporcionado
+		// Mostramos un mensaje de bienvenida y pedimos los datos variables al
+		// usuario
 		
-		System.out.print("\nTu nombre de usuario es: "+ nombre);
+		System.out.println("CALCULADORA DE CAPITAL FINAL");
+		
+		System.out.print("\nIntroduce el capital inicial: ");
+		cinicial = teclado.nextDouble();
+		
+		System.out.print("Introduce el interes anual: ");
+		interes = teclado.nextDouble();
+		
+		System.out.print("Introduce el numero de años: ");
+		naños = teclado.nextInt();
+		
+		// A partir de una expresion matematica calculamos el "cfinal" partiendo de
+		// los datos introducidos por el usuario
+		
+		cfinal = Math.pow((1 + interes),naños)*cinicial;
+		
+		// Por ultimo mostramos el capital final y el interes con el que se adquiere
+		
+		System.out.print("\nEl capital final con un interes anual del, "+interes);
+		System.out.print(" tiene un valor de: "+cfinal);
 		
 	}
-
 }
+		

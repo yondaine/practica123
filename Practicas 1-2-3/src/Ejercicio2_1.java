@@ -2,44 +2,62 @@
  *  Alejandro Navarro Romero 1ºDAW
  *  Ejercicio 1
  *  Ejercicio2_1.java
- *  Pide al usuario tres digitos y los imprime en pantalla por orden.
+ *  Pide tres numeros y los muestra ordenados de mayor a menor.
  */
+
 import java.util.Scanner;
 
 public class Ejercicio2_1 {
+
+	// Declaramos la clase principal
 	
-	    // Declaramos la clase principal
-	
-	public static void main(String argumentos[]) {
-	
-		// Configuramos las variables de tipo entero y habilitamos la entrada por
-        // teclado
+	public static void main(String[] args) {
 		
-		int num1;
-		int num2;
-		int num3;
+		//Habilitamos la entrada por teclado
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		// Pedimos al ususario que introduzca un valor a cada variable
+		// Declramos las variables que utilizaremos
 		
-		System.out.print("Introduce la primera variable: ");
-		num1 = teclado.nextInt();
+		int mayor,mediano,menor;
+		int aux;
 		
-		System.out.print("\nIntroduce la segunda variable: ");
-		num2 = teclado.nextInt();
+		// Pedimos los digitos y los vamos guardando en las variables declaradas
+		// anteriormente, a traves de secuencias "if"
 		
-		System.out.print("\nIntroduce la tercera variable: ");
-		num3 = teclado.nextInt();
+		System.out.println("Primera variable: ");
+		mayor = teclado.nextInt();
 		
-		// Por ultimo mostramos impreso en pantalla las variables escritas por orden
+		System.out.println("Segunda variable: ");
+		aux = teclado.nextInt();
 		
-		System.out.print("\nPrimera variable: "+ num1);
-
-		System.out.print("\nSegunda variable: "+ num2);
+		if(aux>mayor){
+			mediano = mayor;
+			mayor = aux;
+		}else{
+			mediano = aux;
+		}
 		
-		System.out.print("\nTercera variable: "+ num3);
+		System.out.println("Tercera variable: ");
+		aux = teclado.nextInt();
+		
+		if(aux>mayor){
+			menor = mediano;
+			mediano = mayor;
+			mayor = aux;		
+		}else{
+			if(aux>mediano){
+				menor = mediano;
+				mediano = aux;
+			}else{
+				menor = aux;
+			}
+		}
+		// Por ultimo mostramos en pantalla los numeros ordenados de mayor a menor
+		
+		System.out.println("El orden de mayor a menor es: "+mayor+","+mediano+" y "+menor);
+		
 		
 	}
-
+	
 }
